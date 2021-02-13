@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: #333;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.add-doggo {
+    padding: 1rem 1.5rem;
+    margin: 50px 0;
+    color: #fff;
+    background-color: #444;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+img {
+    max-width: 50vw;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.doggos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
